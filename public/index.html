@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -286,6 +285,7 @@
   <div class="ambient-orb orb-bottom"></div>
 
   <main class="vault-card">
+    <!-- SCREEN A: REGISTRATION -->
     <section id="registerView" class="view active">
       <div style="text-align: center;">
         <div id="regBadge" class="sensor-badge">
@@ -331,6 +331,7 @@
       </div>
     </section>
 
+    <!-- SCREEN B: LOGIN -->
     <section id="loginView" class="view">
       <div style="text-align: center;">
         <div id="loginBadge" class="sensor-badge">
@@ -373,6 +374,7 @@
       </div>
     </section>
 
+    <!-- SCREEN C: AUTHENTICATED DASHBOARD -->
     <section id="dashboardView" class="view">
       <div style="text-align: center;">
         <div class="sensor-badge verified">
@@ -427,6 +429,7 @@
     const loginIdentityInput = document.getElementById("loginIdentityInput");
     const regBanner = document.getElementById("regBanner");
     const loginBanner = document.getElementById("loginBanner");
+    const dashBanner = document.getElementById("dashBanner");
 
     const regBadge = document.getElementById("regBadge");
     const loginBadge = document.getElementById("loginBadge");
@@ -736,4 +739,3 @@
   </script>
 </body>
 </html>
-```
